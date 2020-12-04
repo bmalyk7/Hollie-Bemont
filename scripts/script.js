@@ -18,7 +18,7 @@ const hideItems = document.querySelectorAll('.check');
 const mobMenu = document.querySelector('.hide');
 const contact = document.querySelector('.contact');
 
-let a;
+
 
 function change(i){
     if(i == 0){

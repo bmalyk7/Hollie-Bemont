@@ -79,7 +79,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    cursor: pointer;
 }
 .change.promo{
     display: none;
@@ -90,22 +89,24 @@
     flex-direction: column;
     width: 45vw;
     height: 120vh;
+    cursor: pointer;
 }
-.promo_block:hover{
-    filter: brightness(79%);
+ .promo_block:hover{
+   filter: brightness(79%);
 }
 
 
 
 .promo_item1{
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     margin-top: 30px;
     width: 45vw;
     height: 98%;
     margin-top: 100px;
     transition-duration: 0.3s;
     background: url('https://images.squarespace-cdn.com/content/v1/5d37161e0198630001386071/1564671878561-T2Q122FSQ1RMLSMU143M/ke17ZwdGBToddI8pDm48kJVSTvS5NKQRREEAlyT7Qt17gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UY2FLnfhRrBkVQtC1VzXrd63fFsPMInzN-2uz2fT8ag6Jrp0Q3qRhvCXOPRnHq6klQ/13_20161004S1_CERAMICS_047.jpg?format=750w')center center/cover no-repeat
+    
 }
 
 .promo_item2{
