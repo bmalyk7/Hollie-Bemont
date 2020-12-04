@@ -79,29 +79,80 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    cursor: pointer;
 }
 .change.promo{
     display: none;
 }
 
-.promo_item{
+.promo_block{
+    display: flex;
+    flex-direction: column;
+    width: 45vw;
+    height: 120vh;
+}
+.promo_block:hover{
+    filter: brightness(79%);
+}
+
+
+
+.promo_item1{
+    display: flex;
+    flex-direction: column;
     margin-top: 30px;
-    width: 43%;
-    height: 33%;
+    width: 45vw;
+    height: 98%;
     margin-top: 100px;
     transition-duration: 0.3s;
-}
-.promo_item:hover{
-    filter: brightness(79%);
-    width: 44%;
-    height: 34%;
-
+    background: url('https://images.squarespace-cdn.com/content/v1/5d37161e0198630001386071/1564671878561-T2Q122FSQ1RMLSMU143M/ke17ZwdGBToddI8pDm48kJVSTvS5NKQRREEAlyT7Qt17gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UY2FLnfhRrBkVQtC1VzXrd63fFsPMInzN-2uz2fT8ag6Jrp0Q3qRhvCXOPRnHq6klQ/13_20161004S1_CERAMICS_047.jpg?format=750w')center center/cover no-repeat
 }
 
-.promo_item img{
-    width: 100%;
-    height: 100%;
+.promo_item2{
+    margin-top: 30px;
+    width: 45vw;
+    height: 98%;
+    margin-top: 100px;
+    transition-duration: 0.3s;
+    background: url('https://images.squarespace-cdn.com/content/v1/5d37161e0198630001386071/1564673273407-NI2Z1YS7KDZU0UA65IOJ/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/1509-10f-01_Watches_Details_0068-RGB.jpg?format=750w')center center/cover no-repeat
 }
+.promo_item3{
+    margin-top: 30px;
+    width: 45vw;
+    height: 98%;
+    margin-top: 100px;
+    transition-duration: 0.3s;
+    background: url('https://images.squarespace-cdn.com/content/v1/5d37161e0198630001386071/1564673303865-N80GTOGEPM5CZQ3B34UR/ke17ZwdGBToddI8pDm48kNWEijDgOM3qhupCxD6zaoF7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0hveExjbswnAj1UrRPScjfAvO9Gft18tQs-1jKy_ly9FZSn22QQVyfmA5BW_sN6yjg/06_STILL_LIFE_265_V3_Master_OP2.jpg?format=750w')center center/cover no-repeat
+}
+.promo_item4{
+    margin-top: 30px;
+    width: 45vw;
+    height: 98%;
+    margin-top: 100px;
+    transition-duration: 0.3s;
+    background: url('https://images.squarespace-cdn.com/content/v1/5d37161e0198630001386071/1564673344431-I3GOSWAXY1HZAGHKU817/ke17ZwdGBToddI8pDm48kIIi01MzlT6s0Ay7rhSX3Od7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UVt_9Kf_zDV337d7QtZV4g8W2Jzsluz8Fln6_Zithp5faxWHsOZ9Sp5tdeSL6PL17g/Stocksy_txp46315712VFE200_Large_2317055.jpg?format=750w')center center/cover no-repeat
+}
+.promo_item5{
+    margin-top: 30px;
+    width: 45vw;
+    width: 45vw;
+    height: 98%;
+    margin-top: 100px;
+    transition-duration: 0.3s;
+    background: url('https://images.squarespace-cdn.com/content/v1/5d37161e0198630001386071/1564679197010-KR4K85LMTHLKM7DV3REH/ke17ZwdGBToddI8pDm48kM4hVnc8kBimH-s8itOnGXF7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UeinEv7oYSK84LaPxbB_97DCBh52nANhYiNv4CVkV8vbELQUv11dQuHZj93ZCN1-8g/1509-07i-07_Build_It_Details_2_0385-RGB.jpg?format=750w')center center/cover no-repeat
+}
+.promo_item6{
+    margin-top: 30px;
+    width: 45vw;
+    height: 98%;
+    margin-top: 100px;
+    transition-duration: 0.3s;
+    background: url('https://images.squarespace-cdn.com/content/v1/5d37161e0198630001386071/1564678998966-PZO62YB0EYQN8HFOSHV7/ke17ZwdGBToddI8pDm48kH0gRy6RMW20rIGs2o2LxkZ7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UUBI5LO1F8pYgtpMoef6HrH2KqEu2QkizOgSNEaSslFdVui_uwT1L0qH0SjV2jNRDA/Header_04_008-copy.jpg?format=750w')center center/cover no-repeat
+}
+
+
+
+
 
 .application{
     max-width: 100%;
@@ -184,9 +235,38 @@ margin-top: 50px;
         display: block;
     }
 
-        .promo_item{
+        .promo_block{
             margin: 20px auto;
-            width: 88%;
+            width: 88vw;
+        }
+
+        .link_item1{
+            align-self: end;
+        }
+
+        .promo_item1{
+            margin: 20px auto;
+            width: 100%;
+        }
+        .promo_item2{
+            margin: 20px auto;
+            width: 100%;
+        }
+        .promo_item3{
+            margin: 20px auto;
+            width: 100%;
+        }
+        .promo_item4{
+            margin: 20px auto;
+            width: 100%;
+        }
+        .promo_item5{
+            margin: 20px auto;
+            width: 100%;
+        }
+        .promo_item6{
+            margin: 20px auto;
+            width: 100%;
         }
 
     .application{
@@ -311,9 +391,15 @@ margin-top: 50px;
     .menu_logo a{
         font-size: 15px;
     }
+    .promo_block{
+        width: 88vw;
+        height: 80vh;
+    }
+
         .promo_item{
             margin: 20px auto;
-            width: 88%;
+            width: 100%;
+            height: 100%;
         }
     
         .application{
@@ -375,7 +461,7 @@ margin-top: 50px;
 
     .top_line, .middle_line, .bottom_line{
         margin-bottom: 3px ;
-        width: 100%;
+        width: 80%;
         height: 4px;
         background-color: black;
         border-radius:1px;
@@ -384,7 +470,7 @@ margin-top: 50px;
 
     .change.top_line {
         -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
-        transform: rotate(-45deg) translate(-9px, 8px) ;
+        transform: rotate(-45deg) translate(-2px, 8px) ;
     }
 
 
@@ -395,7 +481,7 @@ margin-top: 50px;
 
     .change.bottom_line{
         -webkit-transform: rotate(45deg) translate(-9px, -9px) ;
-        transform: rotate(45deg) translate(3px, 4px) ;
+        transform: rotate(45deg) translate(4px, -4px) ;
     }
 
     .hide_menu{
